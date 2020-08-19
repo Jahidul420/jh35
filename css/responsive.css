@@ -1,0 +1,326 @@
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+.team-part .team-items{
+    height: 316px;
+}
+.team-items .team-socali li a{
+    margin: 0px 4px;
+}
+#slider{
+    background: url(../img/banner2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+ }
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{ 
+
+
+
+
+
+
+#slider{
+    background: url(../img/banner4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/*---------768px TO 991.98px---------*/
+        /**************************/
+/*-------SECTION ID AND CLASS START-------*/
+#about{
+    padding-top: 75px;
+}
+#services{
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+#portfolio{
+    padding-top: 75px;
+}
+#myTeam{
+    padding-top: 75px;
+}
+#Footer{
+    padding-bottom: 70px;
+}
+/*-------SECTION ID AND CLASS END-------*/
+/*-------SLIDER START-------*/
+.slider-part .bnr-con1 h1{
+    margin-top: 150px;
+}
+#bnrBt{
+    margin-bottom: 50px;
+}
+/*-------SLIDER END-------*/
+/*-------PORTFOLIO START-------*/
+.port-part .port-items{
+    height: 360px;
+}
+.port-part .pt-4{
+    padding-top: 0rem!important;
+}
+.port-part{
+    padding-bottom: 0px;
+}
+/*-------PORTFOLIO END-------*/
+/*------- TEAM PART START-------*/
+.team-part .team-items {
+    height: 229px;
+}
+.team-items .details h2{
+    font-size: 20px;
+}
+.team-items .details h2 span{
+    font-size: 15px;
+}
+.team-items .details{
+    height: 63px;
+    padding: 0px;
+}
+.team-items .team-socali li a{
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    margin: 0 3px;
+}
+/*-------ALL RESPONSIVE END-------*/
+ 
+
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+
+
+#slider{
+    background: url(../img/banner5.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.slider-part .bnr-con1 h1{
+    font-size: 38px; 
+    margin-top: 130px;
+}
+#bnrBt{
+    margin-bottom: 50px;
+}
+.port-part .port-items{
+    height: 500px;
+    margin: 0px auto 40px;
+}
+.team-part .team-items {
+    height: 447px;
+    width: 409px;
+    margin: 0px auto 40px;
+}
+.port-part .pt-4{
+    padding-top: 0rem!important;
+}
+#about{
+    padding-top: 60px;
+}
+#services{
+    padding-top: 60px;
+    padding-top: 50px;
+}
+#portfolio{
+    padding-top: 60px;
+}
+#myTeam{
+    padding-top: 60px;
+}
+
+
+
+
+
+ }
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+
+#slider{
+    background: url(../img/banner3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/*---------UNDER 575.98PX SIZE ---------*/
+        /**************************/
+/*-------COMMON ID AND CLASS START-------*/
+#all-title{
+    font-size: 25px;
+}
+#title-icon {
+    height: 65px;
+}
+.ab-img {
+    width: 222px;
+}
+.srv-img {
+    width: 173px;
+}
+.pot-img {
+    width: 163px;
+}
+.tm-img {
+    width: 137px;
+}
+/*---------COMMON ID AND CLASS END---------*/
+        /**************************/
+/*---------------SLIDER START---------------*/
+.slider-part .bnr-con1 h1 {
+    margin-top: 100px; 
+    font-size: 20px;
+}
+.slider-part .bnr-con2 p {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+#bnrBt {
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+/*---------SLIDER END---------*/
+        /***************/
+/*-------ABOUT START-------*/
+#about {
+    padding-top: 30px;
+}
+.about-section .aboutSlider{
+    width: 85%;
+    margin: auto;
+}
+.about-section .ab-left{
+    width: 85%;
+    margin: auto;
+}
+.about-section .ab-left h2{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.ab-left p{
+    text-align: justify;
+    font-size: 10px;
+}
+.abButton button{
+    height: 30px;
+    width: 100px;
+    font-size: 12px; 
+}
+.about-section .ab-left {
+    margin-bottom: 20px;
+}
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+/*---------ABOUT END---------*/
+        /***************/
+/*-------SERVICE START-------*/
+
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.service-items .sr-item {
+    width: 300px;
+    margin: 0px auto 20px;
+}
+/*---------SARVICE EDN---------*/
+        /***************/
+/*-------PORTFOLIO START-------*/
+.port-part {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.port-part .port-items {
+    height: 370px;
+    width: 330px;
+    margin: 0px auto 32px;
+}
+.port-part .portBtn a {
+    font-size: 25px;
+}
+.port-part .portBtn{
+        padding-top: 0px;
+}
+.port-part .pt-4{
+    padding-top: 0rem!important;
+}
+/*---------PORTFOLIO EDN---------*/
+        /***************/
+/*--------MY TEAM START--------*/
+#myTeam {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team-part .team-items {
+    height: 357px;
+    width: 329px;
+    margin: 0px auto 20px;
+}
+.team-items .team-socali li a{
+  height: 45px;
+  width: 45px;
+}
+/*---------MY TEAM EDN---------*/
+        /***************/
+/*-------CONTACT START-------*/
+.contact-items .little-nav{
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+.contact-items .socail-media ul li{
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+}
+.contact-items .pt-3, .py-3 {
+    padding-top: 0rem!important;
+}
+.contact-items .socail-media{
+    padding-bottom: 10px;
+}
+
+/*---------CONTACE END---------*/
+        /***************/
+/*--------FOOTER START--------*/
+#Footer{
+  padding-bottom: 50px;
+}
+/*-----------FOOTER END-----------*/
+        /***************/
+/*-------ALL RESPONSIVE END-------*/
+
+
+
+
+
+}
+
+
+
+
